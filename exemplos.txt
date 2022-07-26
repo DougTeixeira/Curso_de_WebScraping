@@ -1,0 +1,7 @@
+# selecionar algo pelo texto q possui
+
+# css 
+find_element_by_css_selector('span:contains("View All Companies")')
+# xpath
+find_element_by_xpath('//span[contains(text(), "View All Companies")]')
+
